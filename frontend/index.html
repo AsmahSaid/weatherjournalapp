@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet">
+    <title>JOURNAL WEATHER APP PROJECT TWO</title>
+</head>
+
+<body>
+    <div class="allapp align-vertical-display">
+        <h1>Weather Journal Application</h1>
+
+<div class="input align-vertical-display">
+<label>what is your city zip code?</label>
+<input id="zip" placeholder="enter your city zip code..">
+
+<label>How do you feel today?</label>
+<textarea id="yourfeeling" rows="10" cols="60" placeholder="feel free to enter your feeling.."></textarea>
+<button id="generatedata">Generate Details</button>
+</div>
+
+<label>Most recent Details for you..</label>
+<div class="output">
+<div>Temperature: <label id="temprature" style="color: brown;"></label></div>
+<div class="date">Date: <label id="date"style="color: brown;"></label></div>
+<div>Feelings: <label id="feeling"style="color: brown;"></label></div>
+</div>
+</div>
+
+    <script src="java.js"></script>
+    
+</body>
+</html>
